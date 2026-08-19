@@ -1,0 +1,320 @@
+Analysis & Synthesis report for V1495ECL2LVDS
+Wed Aug 19 11:26:30 2026
+Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Elapsed Time Per Partition
+ 10. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                ;
++-----------------------------+-----------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Wed Aug 19 11:26:30 2026         ;
+; Quartus II Version          ; 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition ;
+; Revision Name               ; V1495ECL2LVDS                                 ;
+; Top-level Entity Name       ; ecl2lvds                                      ;
+; Family                      ; Cyclone                                       ;
+; Total logic elements        ; 0                                             ;
+; Total pins                  ; 68                                            ;
+; Total virtual pins          ; 0                                             ;
+; Total memory bits           ; 0                                             ;
+; Total PLLs                  ; 0                                             ;
++-----------------------------+-----------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP1C20F400C6       ;                    ;
+; Top-level entity name                                                      ; ecl2lvds           ; V1495ECL2LVDS      ;
+; Family name                                                                ; Cyclone            ; Cyclone IV GX      ;
+; VHDL Show LMF Mapping Messages                                             ; Off                ;                    ;
+; VHDL Version                                                               ; VHDL_2008          ; VHDL_1993          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 20     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                           ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                              ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+
+; ../src/ecl2lvds.vhd              ; yes             ; User VHDL File  ; C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/src/ecl2lvds.vhd ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Total logic elements                        ; 0     ;
+;     -- Combinational with no register       ; 0     ;
+;     -- Register only                        ; 0     ;
+;     -- Combinational with a register        ; 0     ;
+;                                             ;       ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- 2 input functions                    ; 0     ;
+;     -- 1 input functions                    ; 0     ;
+;     -- 0 input functions                    ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;     -- qfbk mode                            ; 0     ;
+;     -- register cascade mode                ; 0     ;
+;     -- synchronous clear/load mode          ; 0     ;
+;     -- asynchronous clear/load mode         ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+; I/O pins                                    ; 68    ;
+; Maximum fan-out node                        ; E[2]  ;
+; Maximum fan-out                             ; 2     ;
+; Total fan-out                               ; 9     ;
+; Average fan-out                             ; 0.13  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+; |ecl2lvds                  ; 0 (0)       ; 0            ; 0           ; 68   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |ecl2lvds           ;              ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Aug 19 11:26:29 2026
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off V1495ECL2LVDS -c V1495ECL2LVDS
+Warning: Parallel compilation is not licensed and has been disabled
+Info: Found 2 design units, including 1 entities, in source file /users/purwar/work/solid/firmwares/v1495/v1495ecl2lvds/src/ecl2lvds.vhd
+    Info: Found design unit 1: ecl2lvds-Synthesis
+    Info: Found entity 1: ecl2lvds
+Info: Elaborating entity "ecl2lvds" for the top level hierarchy
+Warning (10873): Using initial value X (don't care) for net "C[31..8]" at ecl2lvds.vhd(21)
+Warning: The following bidir pins have no drivers
+    Warning: Bidir "E[0]" has no driver
+    Warning: Bidir "E[1]" has no driver
+    Warning: Bidir "E[2]" has no driver
+    Warning: Bidir "E[3]" has no driver
+    Warning: Bidir "E[4]" has no driver
+    Warning: Bidir "E[5]" has no driver
+    Warning: Bidir "E[6]" has no driver
+    Warning: Bidir "E[7]" has no driver
+    Warning: Bidir "E[8]" has no driver
+    Warning: Bidir "E[9]" has no driver
+    Warning: Bidir "E[10]" has no driver
+    Warning: Bidir "E[11]" has no driver
+    Warning: Bidir "E[12]" has no driver
+    Warning: Bidir "E[13]" has no driver
+    Warning: Bidir "E[14]" has no driver
+    Warning: Bidir "E[15]" has no driver
+    Warning: Bidir "E[16]" has no driver
+    Warning: Bidir "E[17]" has no driver
+    Warning: Bidir "E[18]" has no driver
+    Warning: Bidir "E[19]" has no driver
+    Warning: Bidir "E[20]" has no driver
+    Warning: Bidir "E[21]" has no driver
+    Warning: Bidir "E[22]" has no driver
+    Warning: Bidir "E[23]" has no driver
+    Warning: Bidir "E[24]" has no driver
+    Warning: Bidir "E[25]" has no driver
+    Warning: Bidir "E[26]" has no driver
+    Warning: Bidir "E[27]" has no driver
+    Warning: Bidir "E[28]" has no driver
+    Warning: Bidir "E[29]" has no driver
+    Warning: Bidir "E[30]" has no driver
+    Warning: Bidir "E[31]" has no driver
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "nOEE" is stuck at VCC
+    Warning (13410): Pin "SELE" is stuck at GND
+    Warning (13410): Pin "C[8]" is stuck at GND
+    Warning (13410): Pin "C[9]" is stuck at GND
+    Warning (13410): Pin "C[10]" is stuck at GND
+    Warning (13410): Pin "C[11]" is stuck at GND
+    Warning (13410): Pin "C[12]" is stuck at GND
+    Warning (13410): Pin "C[13]" is stuck at GND
+    Warning (13410): Pin "C[14]" is stuck at GND
+    Warning (13410): Pin "C[15]" is stuck at GND
+    Warning (13410): Pin "C[16]" is stuck at GND
+    Warning (13410): Pin "C[17]" is stuck at GND
+    Warning (13410): Pin "C[18]" is stuck at GND
+    Warning (13410): Pin "C[19]" is stuck at GND
+    Warning (13410): Pin "C[20]" is stuck at GND
+    Warning (13410): Pin "C[21]" is stuck at GND
+    Warning (13410): Pin "C[22]" is stuck at GND
+    Warning (13410): Pin "C[23]" is stuck at GND
+    Warning (13410): Pin "C[24]" is stuck at GND
+    Warning (13410): Pin "C[25]" is stuck at GND
+    Warning (13410): Pin "C[26]" is stuck at GND
+    Warning (13410): Pin "C[27]" is stuck at GND
+    Warning (13410): Pin "C[28]" is stuck at GND
+    Warning (13410): Pin "C[29]" is stuck at GND
+    Warning (13410): Pin "C[30]" is stuck at GND
+    Warning (13410): Pin "C[31]" is stuck at GND
+    Warning (13410): Pin "nLEDR" is stuck at VCC
+Warning: Output pin "C[0]" driven by bidirectional pin "E[2]" cannot be tri-stated
+Warning: Output pin "nLEDG" driven by bidirectional pin "E[2]" cannot be tri-stated
+Warning: Output pin "C[2]" driven by bidirectional pin "E[3]" cannot be tri-stated
+Warning: Output pin "C[4]" driven by bidirectional pin "E[14]" cannot be tri-stated
+Warning: Output pin "C[6]" driven by bidirectional pin "E[15]" cannot be tri-stated
+Warning: Output pin "C[1]" driven by bidirectional pin "E[18]" cannot be tri-stated
+Warning: Output pin "C[3]" driven by bidirectional pin "E[19]" cannot be tri-stated
+Warning: Output pin "C[5]" driven by bidirectional pin "E[30]" cannot be tri-stated
+Warning: Output pin "C[7]" driven by bidirectional pin "E[31]" cannot be tri-stated
+Info: Generating hard_block partition "hard_block:auto_generated_inst"
+Info: Implemented 68 device resources after synthesis - the final resource count might be different
+    Info: Implemented 0 input pins
+    Info: Implemented 36 output pins
+    Info: Implemented 32 bidirectional pins
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 72 warnings
+    Info: Peak virtual memory: 311 megabytes
+    Info: Processing ended: Wed Aug 19 11:26:31 2026
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

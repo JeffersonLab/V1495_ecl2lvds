@@ -1,0 +1,159 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2011 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+# Date created = 15:22:13  August 12, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		V1495ECL2LVDS_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE EP1C20F400C6
+set_global_assignment -name TOP_LEVEL_ENTITY ecl2lvds
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "11.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:22:13  AUGUST 12, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "11.0 SP1"
+set_global_assignment -name VHDL_FILE ../src/ecl2lvds.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_location_assignment PIN_K19 -to nLEDG
+set_location_assignment PIN_D17 -to nLEDR
+
+set_location_assignment PIN_W5 -to SELF
+set_location_assignment PIN_Y13 -to nOEF
+set_location_assignment PIN_T3 -to E[21]
+set_location_assignment PIN_P1 -to E[7]
+set_location_assignment PIN_J4 -to E[14]
+set_location_assignment PIN_P7 -to E[17]
+set_location_assignment PIN_N2 -to E[22]
+set_location_assignment PIN_N1 -to E[23]
+set_location_assignment PIN_F1 -to E[24]
+set_location_assignment PIN_G1 -to E[25]
+set_location_assignment PIN_E2 -to E[26]
+set_location_assignment PIN_A17 -to E[27]
+set_location_assignment PIN_D13 -to E[29]
+set_location_assignment PIN_C16 -to E[30]
+set_location_assignment PIN_E12 -to E[31]
+set_location_assignment PIN_G15 -to E[8]
+set_location_assignment PIN_G19 -to E[11]
+set_location_assignment PIN_G20 -to E[13]
+set_location_assignment PIN_H19 -to E[9]
+set_location_assignment PIN_H18 -to E[10]
+set_location_assignment PIN_H17 -to E[12]
+set_location_assignment PIN_G18 -to E[15]
+set_location_assignment PIN_J15 -to E[28]
+set_location_assignment PIN_V10 -to E[0]
+set_location_assignment PIN_Y15 -to E[1]
+set_location_assignment PIN_T6 -to E[2]
+set_location_assignment PIN_W15 -to E[3]
+set_location_assignment PIN_R11 -to E[4]
+set_location_assignment PIN_U12 -to E[5]
+set_location_assignment PIN_R13 -to E[6]
+set_location_assignment PIN_U10 -to E[18]
+set_location_assignment PIN_V13 -to E[20]
+set_location_assignment PIN_V4 -to E[16]
+set_location_assignment PIN_W4 -to E[19]
+
+set_location_assignment PIN_T2 -to F[15]
+set_location_assignment PIN_M6 -to F[2]
+set_location_assignment PIN_N7 -to F[10]
+set_location_assignment PIN_N6 -to F[11]
+set_location_assignment PIN_T17 -to F[4]
+set_location_assignment PIN_R16 -to F[5]
+set_location_assignment PIN_P14 -to F[7]
+set_location_assignment PIN_P18 -to F[8]
+set_location_assignment PIN_R17 -to F[9]
+set_location_assignment PIN_V18 -to F[12]
+set_location_assignment PIN_U18 -to F[13]
+set_location_assignment PIN_N15 -to F[14]
+set_location_assignment PIN_U14 -to F[16]
+set_location_assignment PIN_T15 -to F[17]
+set_location_assignment PIN_V14 -to F[18]
+set_location_assignment PIN_R14 -to F[19]
+set_location_assignment PIN_T14 -to F[24]
+set_location_assignment PIN_Y14 -to F[25]
+set_location_assignment PIN_T13 -to F[0]
+set_location_assignment PIN_Y12 -to F[1]
+set_location_assignment PIN_W13 -to F[3]
+set_location_assignment PIN_T10 -to F[6]
+set_location_assignment PIN_T11 -to F[20]
+set_location_assignment PIN_U11 -to F[21]
+set_location_assignment PIN_V11 -to F[22]
+set_location_assignment PIN_R9 -to F[23]
+set_location_assignment PIN_W11 -to F[26]
+set_location_assignment PIN_Y11 -to F[27]
+set_location_assignment PIN_T9 -to F[28]
+set_location_assignment PIN_T12 -to F[29]
+set_location_assignment PIN_V9 -to F[30]
+set_location_assignment PIN_T8 -to F[31]
+
+set_location_assignment PIN_U2 -to C[5]
+set_location_assignment PIN_V2 -to C[11]
+set_location_assignment PIN_R4 -to C[17]
+set_location_assignment PIN_U3 -to C[22]
+set_location_assignment PIN_M3 -to C[4]
+set_location_assignment PIN_R6 -to C[6]
+set_location_assignment PIN_R2 -to C[7]
+set_location_assignment PIN_R1 -to C[10]
+set_location_assignment PIN_R5 -to C[14]
+set_location_assignment PIN_N4 -to C[18]
+set_location_assignment PIN_R3 -to C[23]
+set_location_assignment PIN_P4 -to C[26]
+set_location_assignment PIN_M5 -to C[31]
+set_location_assignment PIN_T16 -to C[9]
+set_location_assignment PIN_U13 -to C[0]
+set_location_assignment PIN_Y9 -to C[21]
+set_location_assignment PIN_W10 -to C[25]
+set_location_assignment PIN_Y10 -to C[30]
+set_location_assignment PIN_Y4 -to C[1]
+set_location_assignment PIN_V8 -to C[2]
+set_location_assignment PIN_W7 -to C[3]
+set_location_assignment PIN_R7 -to C[8]
+set_location_assignment PIN_T5 -to C[12]
+set_location_assignment PIN_U5 -to C[13]
+set_location_assignment PIN_Y7 -to C[15]
+set_location_assignment PIN_V5 -to C[16]
+set_location_assignment PIN_Y6 -to C[19]
+set_location_assignment PIN_V6 -to C[20]
+set_location_assignment PIN_U9 -to C[24]
+set_location_assignment PIN_W3 -to C[27]
+set_location_assignment PIN_U7 -to C[28]
+set_location_assignment PIN_V7 -to C[29]
+
+set_location_assignment PIN_N14 -to nOEE
+set_location_assignment PIN_T18 -to SELE
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,1 @@
+Firmware for V1495 board: A simple firmware that copies and inverts (nots) the signals on (input) Port E of V1495 to the (output) Port C - channels 0-7.

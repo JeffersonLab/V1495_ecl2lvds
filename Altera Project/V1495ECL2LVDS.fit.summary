@@ -1,0 +1,12 @@
+Fitter Status : Successful - Wed Aug 19 11:26:33 2026
+Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition
+Revision Name : V1495ECL2LVDS
+Top-level Entity Name : ecl2lvds
+Family : Cyclone
+Device : EP1C20F400C6
+Timing Models : Final
+Total logic elements : 0 / 20,060 ( 0 % )
+Total pins : 68 / 301 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 0 / 294,912 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

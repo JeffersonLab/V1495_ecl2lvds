@@ -1,0 +1,96 @@
+Assembler report for V1495ECL2LVDS
+Wed Aug 19 11:26:35 2026
+Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Messages
+  4. Assembler Generated Files
+  5. Assembler Device Options: C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.sof
+  6. Assembler Device Options: C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.pof
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Wed Aug 19 11:26:35 2026 ;
+; Revision Name         ; V1495ECL2LVDS                         ;
+; Top-level Entity Name ; ecl2lvds                              ;
+; Family                ; Cyclone                               ;
+; Device                ; EP1C20F400C6                          ;
++-----------------------+---------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Assembler
+    Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Aug 19 11:26:34 2026
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off V1495ECL2LVDS -c V1495ECL2LVDS
+Info: Assembler is generating device programming files
+Info: Quartus II Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 290 megabytes
+    Info: Processing ended: Wed Aug 19 11:26:35 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                 ;
++-------------------------------------------------------------------------------------------+
+; File Name                                                                                 ;
++-------------------------------------------------------------------------------------------+
+; C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.sof ;
+; C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.pof ;
++-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.sof ;
++----------------+----------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                            ;
++----------------+----------------------------------------------------------------------------------------------------+
+; Device         ; EP1C20F400C6                                                                                       ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                         ;
+; Checksum       ; 0x001C31CC                                                                                         ;
++----------------+----------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/purwar/WORK/SoLID/firmwares/v1495/v1495ECL2LVDS/Altera Project/V1495ECL2LVDS.pof ;
++--------------------+------------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                        ;
++--------------------+------------------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                                          ;
+; JTAG usercode      ; 0x00000000                                                                                     ;
+; Checksum           ; 0x062B2DC5                                                                                     ;
+; Compression Ratio  ; 3                                                                                              ;
++--------------------+------------------------------------------------------------------------------------------------+
+
+
